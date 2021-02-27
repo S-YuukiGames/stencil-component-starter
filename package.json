@@ -27,7 +27,7 @@
     "deploy": "npm run build && npm run deploy-storybook"
   },
   "dependencies": {
-    "@stencil/core": "^2.0.1"
+    "@stencil/core": "^2.4.0"
   },
   "license": "MIT",
   "devDependencies": {
