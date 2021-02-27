@@ -1,5 +1,6 @@
 import { Component, Prop, h } from '@stencil/core';
 import { format } from '../../utils/utils';
+import arrowIcon from '../../assets/images/icon/close.svg';
 
 @Component({
   tag: 'my-component',
@@ -27,6 +28,12 @@ export class MyComponent {
   }
 
   render() {
-    return <div>Hello, World! I'm {this.getText()}</div>;
+    return (
+      <div>
+      <div>Hello, World! I'm {this.getText()}</div>
+      <div class="icon" innerHTML={arrowIcon}></div>
+      </div>
+
+    )
   }
 }
