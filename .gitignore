@@ -2,6 +2,11 @@ dist/
 www/
 loader/
 
+src/index.html
+storybook-static/
+
+src/components/**/*.md
+
 *~
 *.sw[mnpcod]
 *.log
