@@ -16,6 +16,16 @@ Stencil combines the best concepts of the most popular frontend frameworks into 
 
 Stencil components are just Web Components, so they work in any major framework or with no framework at all.
 
+
+#### git 監視対象からファイルを外す
+
+build 時は最新バージョンは不要だが開発中は利用したいファイルがあるので予め git の監視から外すようにします。
+
+`git update-index --skip-worktree ./src/components.d.ts`
+`git update-index --skip-worktree ./src/index.html`
+
+[参考](https://qiita.com/sqrtxx/items/38a506e59df67cd5d3a1)
+
 ## Getting Started
 
 To start building a new web component using Stencil, clone this repo to a new directory:
