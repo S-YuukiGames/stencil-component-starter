@@ -27,18 +27,18 @@
     "deploy": "npm run build && npm run deploy-storybook"
   },
   "dependencies": {
-    "@stencil/core": "^2.4.0"
+    "@stencil/core": "^2.8.1"
   },
   "license": "MIT",
   "devDependencies": {
-    "@babel/core": "^7.13.8",
+    "@babel/core": "^7.15.5",
     "@stencil/sass": "^1.4.1",
-    "@storybook/addon-actions": "^6.1.20",
-    "@storybook/addon-knobs": "^6.1.20",
+    "@storybook/addon-actions": "^6.3.9",
+    "@storybook/addon-knobs": "^6.3.1",
     "@storybook/addon-notes": "^5.3.21",
-    "@storybook/html": "^6.1.20",
-    "@storybook/storybook-deployer": "^2.8.7",
+    "@storybook/html": "^6.3.9",
+    "@storybook/storybook-deployer": "^2.8.10",
     "babel-loader": "^8.2.2",
-    "stencil-inline-svg": "^1.0.1"
+    "stencil-inline-svg": "^1.1.0"
   }
 }
