@@ -1,0 +1,26 @@
+{
+  "version": "experimental",
+  "tags": [
+    {
+      "name": "my-component",
+      "path": "./src/components.d.ts",
+      "properties": [
+        {
+          "name": "first",
+          "description": "The first name",
+          "type": "string | undefined"
+        },
+        {
+          "name": "last",
+          "description": "The last name",
+          "type": "string | undefined"
+        },
+        {
+          "name": "middle",
+          "description": "The middle name",
+          "type": "string | undefined"
+        }
+      ]
+    }
+  ]
+}
